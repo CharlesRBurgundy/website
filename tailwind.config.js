@@ -7,9 +7,12 @@ export default {
     theme: {
         colors: {
             'silver': '#DBDBDB',
-            'light-grey': '#686868',
-            'medium-grey': '#4B4B4B',
+            'pink': '#BB2AAF',
+            'brown': '#73493c',
+            'dark-silver': '#717171',
             'dark-purple': '#800020',
+            'dark-green': '#008060',
+            'dark-blue': '#253c80',
             'dark-brown': '#211306',
             'dark-grey': '#1A2024',
         },
@@ -19,7 +22,8 @@ export default {
         },
         extend: {
             backgroundImage: {
-                'noise': "url('/noise.png')"
+                'noise': "url('/noise.png')",
+                'gradient': "radial-gradient(circle, rgba(33,19,6,0) 75%, rgba(33,19,6,0.66) 100%);",
             },
             animation: {
                 fade: 'fadeIn 1s ease-in-out',
