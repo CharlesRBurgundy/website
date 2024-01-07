@@ -23,7 +23,7 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <App><Contact/></App>,
     },
-], { basename: '/website' });
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
