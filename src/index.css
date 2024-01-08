@@ -9,3 +9,24 @@
         @apply bg-dark-purple
     }
 }
+
+.corner-tl, .corner-tr, .corner-bl, .corner-br {
+    background-image: url("/corner.svg");
+    background-size: 1.5rem;
+}
+.corner-tr { transform: rotate(90deg); }
+.corner-br { transform: rotate(180deg); }
+.corner-bl { transform: rotate(270deg); }
+
+.bg-left, .bg-right {
+    background-image: url("/side.svg");
+    background-repeat: repeat-y;
+    background-size: 1.5rem 0.375rem;
+}
+.bg-right { transform: rotate(180deg); }
+.bg-top, .bg-bottom {
+    background-image: url("/side_h.svg");
+    background-repeat: repeat-x;
+    background-size: 0.375rem 1.5rem;
+}
+.bg-bottom { transform: rotate(180deg); }
