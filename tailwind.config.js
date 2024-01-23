@@ -9,7 +9,7 @@ export default {
             'silver': '#DBDBDB',
             'pink': '#BB2AAF',
             'brown': '#0E2929',
-            'gold': '#85652a',
+            'gold': '#a27b33',
             'dark-silver': '#717171',
             'dark-purple': '#312851',
             'dark-green': '#008060',

@@ -1,17 +1,13 @@
 import Icon from '@mdi/react';
 import { mdiFacebook, mdiInstagram } from '@mdi/js';
-import { ThemeContext } from "./App.jsx";
-import { useContext } from "react";
 
 export default function Contact() {
-    const {secondaryColor} = useContext(ThemeContext);
-
     return (<>
         <p className="text-3xl lg:text-4xl 2xl:text-5xl py-8 2xl:py-12">
             Please Hesitate
         </p>
         <div className="text-justify tracking-wide 2xl:pb-4">
-            <p className={`py-1 first-letter:text-6xl first-letter:text-${secondaryColor} first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3`}>
+            <p className={`py-1 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3`}>
                 Pellentesque rhoncus magna felis, non aliquet nulla sollicitudin porttitor. Curabitur accumsan luctus
                 efficitur. Nam vestibulum nulla eros, mollis aliquam mauris consequat nec. In non enim in sem ultrices
                 pharetra. Morbi a sapien vulputate nisl condimentum ornare. Duis blandit diam ipsum, maximus

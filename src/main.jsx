@@ -9,11 +9,16 @@ import App from './App.jsx'
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
+import TheFractureOfShackles from "./TheFractureOfShackles";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <App><Home/></App>,
+    },
+    {
+        path: "/the-fracture-of-shackles",
+        element: <App><TheFractureOfShackles/></App>,
     },
     {
         path: "/about",
