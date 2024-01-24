@@ -6,16 +6,13 @@ export default {
     ],
     theme: {
         colors: {
-            'silver': '#DBDBDB',
-            'pink': '#BB2AAF',
-            'brown': '#0E2929',
             'gold': '#a27b33',
-            'dark-silver': '#717171',
-            'dark-purple': '#312851',
-            'dark-green': '#008060',
-            'dark-blue': '#733b73',
-            'dark-brown': '#211306',
+            'silver': '#DBDBDB',
+            'dark-silver': '#83888a',
+            'light-grey': '#373b3b',
             'dark-grey': '#1A2024',
+            'dark-purple': '#312851',
+            'dark-red': '#8a0b03',
         },
         fontFamily: {
             cursive: ['Dancing Script', 'cursive'],

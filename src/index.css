@@ -8,6 +8,24 @@
     body {
         @apply bg-dark-purple
     }
+    body.about {
+        @apply bg-dark-red
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+    border-radius: 0.25rem;
+    @apply bg-dark-grey
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 0.25rem;
+    @apply bg-gold
+}
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-gold
 }
 
 .corner-tl, .corner-tr, .corner-bl, .corner-br {

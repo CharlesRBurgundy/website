@@ -9,16 +9,21 @@ import App from './App.jsx'
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
-import TheFractureOfShackles from "./TheFractureOfShackles";
+import Volume1 from "./Volume1.jsx";
+import Volume2 from "./Volume2.jsx";
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/*",
         element: <App><Home/></App>,
     },
     {
-        path: "/the-fracture-of-shackles",
-        element: <App><TheFractureOfShackles/></App>,
+        path: "/volume-1",
+        element: <App><Volume1/></App>,
+    },
+    {
+        path: "/volume-2",
+        element: <App><Volume2/></App>,
     },
     {
         path: "/about",

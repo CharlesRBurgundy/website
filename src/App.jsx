@@ -1,40 +1,64 @@
-import ladyImage from '/lady.png';
+import queen from '/queen.png';
+import author from '/author.png';
 import smokeL from '/smoke_l.png';
 import smokeR from '/smoke_r.png';
-import corner from '/corner.svg';
-import side from '/side.svg';
-import { NavLink } from "react-router-dom";
-import { createContext, useState } from "react";
+import smokeRedL from '/smoke_red_l.png';
+import smokeRedR from '/smoke_red_r.png';
+import { NavLink, useLocation } from "react-router-dom";
+import { useEffect, useMemo, useState } from "react";
 
 function App({children}) {
+    const location = useLocation();
+    const about = useMemo(() => location.pathname === '/about', [location]);
+    const isBookPage = useMemo(() =>
+            location.pathname === '/volume-1' ||
+            location.pathname === '/volume-2'
+        , [location]);
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    useEffect(() => {
+        if (about) {
+            document.body.classList.add('about');
+        } else {
+            document.body.classList.remove('about');
+        }
+        setMenuOpen(false);
+    }, [location, about]);
     return (
         <>
             <div className="md:fixed w-screen h-screen md:overflow-hidden">
                 <div className="fixed -z-10 bottom-0 left-0 w-screen h-screen bg-noise bg-cover"/>
                 <div
                     className="hidden md:block fixed z-10 left-0 bottom-0 opacity-80 animate-float-left pointer-events-none">
-                    <img src={smokeL}/>
+                    {!about && <img src={smokeL} alt="smoke"/>}
+                    {about && <img src={smokeRedL} alt="smoke"/>}
                 </div>
                 <div
                     className="hidden md:block fixed z-10 right-0 bottom-0 opacity-80 animate-float-right pointer-events-none">
-                    <img src={smokeR}/>
+                    {!about && <img src={smokeR} alt="smoke"/>}
+                    {about && <img src={smokeRedR} alt="smoke"/>}
                 </div>
                 <div
                     className="fixed z-15 bottom-0 left-0 w-screen h-screen bg-gradient bg-cover pointer-events-none       "/>
                 <div
                     className="relative px-4 py-16 sm:p-8 md:p-12 lg:p-20 lg:pb-12 h-full mx-auto lg:max-w-[1600px] flex">
-                    <div className="hidden md:block md:w-2/5 h-full animate-fade">
+                    <div className="hidden md:block md:w-2/5 h-full">
                         <div
                             className="absolute max-w-[50vw] max-h-[100vh] bottom-0 md:-left-8 lg:-left-16 brightness-0 blur-xl opacity-30">
-                            <img src={ladyImage}/>
+                            {!about && <img className="animate-fade" src={queen} alt="shadow"/>}
+                            {about &&
+                                <img className="animate-fade" src={author} alt="shadow"/>}
                         </div>
                         <div className="absolute max-w-[50vw] max-h-[100vh] bottom-0 md:-left-2 lg:-left-4">
-                            <img src={ladyImage}/>
+                            {!about && <img className="animate-fade" src={queen} alt="queen"/>}
+                            {about &&
+                                <img className="animate-fade" src={author} alt="author"/>}
                         </div>
                     </div>
                     <div className="md:w-3/5 animate-fade flex flex-col z-20">
                         <div
-                            className="relative inline-block bg-dark-grey text-center text-silver font-serif m-6 md:max-h-[70vh] shadow-lg shadow-dark-grey/20">
+                            className={`relative inline-block bg-dark-grey text-center text-silver font-serif m-6 md:max-h-[74vh] 
+                                        ${about ? 'shadow-[0_0_140px_rgba(185,38,28,0.33)]' : 'shadow-[0_0_140px_rgba(212,149,224,0.33)]'}`}>
                             <div className="absolute -top-6 -left-6 corner-tl w-6 h-6"/>
                             <div className="absolute -top-6 -right-6 corner-tr w-6 h-6"/>
                             <div className="absolute -bottom-6 -left-6 corner-bl w-6 h-6"/>
@@ -44,35 +68,41 @@ function App({children}) {
                             <div className="absolute top-0 -right-6 bg-right w-6 h-full"/>
                             <div className="absolute -bottom-6 left-0 bg-bottom w-full h-6"/>
 
-                            <div className="h-full flex flex-col">
-                                <div className="grow-0 py-4 lg:py-6 text-lg">
-                                    <div>
-                                        <div
-                                            className="inline-block px-2 lg:px-5 leading-5 align-text-bottom rotate-180">&#10170;</div>
+                            <div className="h-full flex flex-col pb-4">
+                                <div className="grow-0 py-6 lg:py-8 text-lg">
+                                    <div className="flex flex-row gap-8 justify-center">
                                         <NavLink to="/"
-                                                 className={({isActive}) => isActive ? `underline decoration-2 2xl:decoration-3 decoration-gold` : ""}>
+                                                 className={({isActive}) => `px-5 pt-0.5 pb-1.5 mb-0.5 rounded ${isActive ? 'bg-gold' : 'bg-light-grey'}`}>
                                             Home
                                         </NavLink>
-                                        <div className="inline-block px-2 lg:px-5">&#9866;</div>
-                                        <NavLink to="/the-fracture-of-shackles"
-                                                 className={({isActive}) => isActive ? `underline decoration-2 2xl:decoration-3 decoration-gold` : ""}>
-                                            Book 1
-                                        </NavLink>
-                                        <div className="inline-block px-2 lg:px-5">&#9866;</div>
+                                        <div className="py-1 text-dark-silver">◆</div>
+                                        <div>
+                                            <div
+                                                className={`px-5 pt-0.5 pb-1.5 rounded mb-0.5 ${isBookPage ? 'bg-gold' : 'bg-light-grey'} ${menuOpen ? 'rounded-b-none' : ''}`}
+                                                onClick={() => setMenuOpen(!menuOpen)}
+                                            >
+                                                Books
+                                            </div>
+                                            {menuOpen && <div className="absolute flex flex-col text-left z-10">
+                                                <NavLink to="/volume-1"
+                                                         className={({isActive}) => `px-5 py-1.5 mb-0.5 rounded-tr ${isActive ? 'bg-gold' : 'bg-light-grey'}`}>
+                                                    Volume 1 - The Fracture of Shackles
+                                                </NavLink>
+                                                <NavLink to="/volume-2"
+                                                         className={({isActive}) => `px-5 py-1.5 rounded-b ${isActive ? 'bg-gold' : 'bg-light-grey'}`}>
+                                                    Volume 2 - ...
+                                                </NavLink>
+                                            </div>
+                                            }
+                                        </div>
+                                        <div className="py-1 text-dark-silver">◆</div>
                                         <NavLink to="/about"
-                                                 className={({isActive}) => isActive ? `underline decoration-2 2xl:decoration-3 decoration-gold` : ""}>
+                                                 className={({isActive}) => `px-5 pt-0.5 pb-1.5 mb-0.5 rounded ${isActive ? 'bg-gold' : 'bg-light-grey'}`}>
                                             About
                                         </NavLink>
-                                        <div className="inline-block px-2 lg:px-5">&#9866;</div>
-                                        <NavLink to="/contact"
-                                                 className={({isActive}) => isActive ? `underline decoration-2 2xl:decoration-3 decoration-gold` : ""}>
-                                            Contact
-                                        </NavLink>
-                                        <div
-                                            className="inline-block px-2 lg:px-5 leading-5 align-text-bottom">&#10170;</div>
                                     </div>
                                 </div>
-                                <div className="grow overflow-y-auto">
+                                <div className="grow overflow-y-scroll">
                                     <div className="p-4 sm:px-12 md:px-8 lg:px-12">
                                         {children}
                                     </div>
@@ -85,9 +115,6 @@ function App({children}) {
                                     <NavLink to="/"
                                              className={({isActive}) => isActive ? "underline" : ""}>Home</NavLink>
                                     <span className="px-5">-</span>
-                                    <NavLink to="/about"
-                                             className={({isActive}) => isActive ? "underline" : ""}>About</NavLink>
-                                    <span className="px-5">-</span>
                                     <NavLink to="/contact"
                                              className={({isActive}) => isActive ? "underline" : ""}>Contact</NavLink>
                                 </div>
@@ -97,12 +124,6 @@ function App({children}) {
                     </div>
                 </div>
             </div>
-            <div className="hidden text-dark-green text-dark-brown text-dark-blue text-dark-grey text-dark-silver text-pink text-brown
-                            first-letter:text-dark-green first-letter:text-dark-brown first-letter:text-dark-blue first-letter:text-dark-grey
-                            first-letter:text-dark-silver first-letter:text-pink first-letter:text-brown
-                            decoration-dark-green decoration-dark-brown decoration-dark-blue decoration-dark-grey decoration-dark-silver decoration-pink decoration-brown
-                            border-dark-green border-dark-brown border-dark-blue border-dark-grey border-dark-silver border-pink border-brown
-                            bg-dark-green bg-dark-brown bg-dark-blue bg-dark-grey bg-dark-silver bg-pink bg-brown"></div>
         </>
     )
 }

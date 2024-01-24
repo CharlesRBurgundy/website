@@ -1,29 +1,30 @@
-import separator from '/separator_1.svg';
+import separator from '/separator.svg';
+import cover from '/cover.png';
 
-export default function TheFractureOfShackles() {
+export default function Volume1() {
     return (<>
-        <p className="font-cursive text-2xl lg:text-3xl 2xl:text-4xl 2xl:pb-4">
+        <p className={`font-cursive text-dark-silver text-xl lg:text-2xl 2xl:text-3xl 2xl:pb-4`}>
             &nbsp;<span
-            className="text-3xl lg:text-4xl 2xl:text-5xl translate-y-1 px-0.5 inline-block">C</span>harles
+            className={`text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block`}>C</span>harles
             R. <span
-            className="text-3xl lg:text-4xl 2xl:text-5xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
+            className={`text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block`}>B</span>urgundy&nbsp;
         </p>
-        <p className="text-xl lg:text-2xl 2xl:text-3xl pt-5 font-bold">
+        <p className={`text-xl lg:text-2xl 2xl:text-3xl pt-5 pb-1 font-bold`}>
             The War of Obsidian and Mist
         </p>
-        <p className="text-3xl lg:text-4xl 2xl:text-5xl pb-2">
+        <p className="text-3xl lg:text-4xl 2xl:text-5xl">
             The Fracture of Shackles
         </p>
-        <div className="w-full justify-center pb-8 2xl:pb-12">
-            <div className="w-1/2 m-auto">
+        <div className="w-full justify-center py-8">
+            <div className="w-2/5 m-auto">
                 <img src={separator}/>
             </div>
         </div>
-        <p className="pb-6 px-12 font-cursive italic text-2xl first-letter:text-4xl">
+        <p className="pb-4 px-24 font-cursive italic text-xl first-letter:text-4xl">
             When forced in a war that isn't his, how can an enslaved nobleman combine honour and survival ?
         </p>
-        <div className="text-justify tracking-wide 2xl:pb-10">
-            <p className="py-1 first-letter:text-6xl first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
+        <div className="text-justify tracking-wide">
+            <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
                 Captured by pirates at sea, Valirian, a young nobleman from the kingdom of Vinmara, is sold into
                 slavery to the empire of Koresh, his people’s sworn enemy. He comes into the service of Alexar, a
                 powerful and influential Koreshian general, whose designs for the young man are as obscure as they
@@ -39,21 +40,24 @@ export default function TheFractureOfShackles() {
                 Fate is a cruel mistress in love with irony. Will Valirian find redemption, or are some doomed to
                 repeat the same mistakes until the very end?
             </p>
-            <div className="text-center my-4">
+            <div className="text-center my-8">
                 <div className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg">Get Your Copy of The Fracture of Shackles</div>
             </div>
         </div>
-        <p className="text-justify text-xl lg:text-2xl 2xl:text-3xl pt-5 font-bold">
+        <p className="text-justify text-xl pt-5 font-bold">
             A Quick Glance
         </p>
-        <div className="text-justify tracking-wide 2xl:pb-10">
-            <p className="py-1">
-                <b>Series Title:</b> The War of Obsidian and Mist<br/>
-                <b>Book Title:</b> The Fracture of Shackles<br/>
-                <b>Genre:</b> Epic fantasy<br/>
-                <b>Age Category:</b> Adult<br/>
-                <b>Formats:</b> Paperback and ebook<br/>
-            </p>
+        <div className="flex flex-row 2xl:pb-10 items-center">
+            <img className="w-48 p-4 pb-0" src={cover} />
+            <div className="text-justify tracking-wide">
+                <p className="py-1">
+                    <b>Series Title:</b> The War of Obsidian and Mist<br/>
+                    <b>Book Title:</b> The Fracture of Shackles<br/>
+                    <b>Genre:</b> Epic fantasy<br/>
+                    <b>Age Category:</b> Adult<br/>
+                    <b>Formats:</b> Paperback and ebook<br/>
+                </p>
+            </div>
         </div>
     </>);
 }
