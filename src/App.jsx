@@ -6,8 +6,11 @@ import smokeRedL from '/smoke_red_l.png';
 import smokeRedR from '/smoke_red_r.png';
 import { NavLink, useLocation } from "react-router-dom";
 import { useEffect, useMemo, useState } from "react";
+import ReactGA from "react-ga4";
 
+ReactGA.initialize("G-MGWP292NGZ");
 function App({children}) {
+
     const location = useLocation();
     const about = useMemo(() => location.pathname === '/about', [location]);
     const isBookPage = useMemo(() =>
@@ -23,6 +26,7 @@ function App({children}) {
             document.body.classList.remove('about');
         }
         setMenuOpen(false);
+        ReactGA.send({ hitType: "pageview", page: location });
     }, [location, about]);
     return (
         <>
