@@ -18,8 +18,8 @@ export default function About() {
             </p>
             <p className="py-2 first-letter:text-2xl first-letter:font-bold">
                 From the long list of books and tales that had an impact on me, I could cite the legends of King
-                Arthur, The Lord of the Rings, or, more recently, A Song of Ice and Fire, but also games like
-                Warcraft 2 and 3, or the original Baldur’s Gates, that were all important parts of my teenage years.
+                Arthur, <i>The Lord of the Rings</i>, or, more recently, <i>A Song of Ice and Fire</i>, but also games like
+                <i>Warcraft 2 and 3</i>, or the original <i>Baldur’s Gates</i>, that were all important parts of my teenage years.
                 To cite all the amazing works that marked me would be tediously long, but they certainly all
                 contributed to my love for fantasy.
             </p>
@@ -31,7 +31,7 @@ export default function About() {
                 coming along the way.
             </p>
             <div className="text-center">
-                <img className="inline ml-60 w-60" src={signature} alt="signature"/>
+                <img className="inline ml-60 w-60 -rotate-6" src={signature} alt="signature"/>
             </div>
             <div className="text-center pt-8 pb-2">
                 Follow me on my social media accounts
