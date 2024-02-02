@@ -10,7 +10,6 @@ import ReactGA from "react-ga4";
 
 ReactGA.initialize("G-MGWP292NGZ");
 function App({children}) {
-
     const location = useLocation();
     const about = useMemo(() => location.pathname === '/about', [location]);
     const isBookPage = useMemo(() =>
@@ -26,7 +25,7 @@ function App({children}) {
             document.body.classList.remove('about');
         }
         setMenuOpen(false);
-        ReactGA.send({ hitType: "pageview", page: location });
+        ReactGA.send({hitType: "pageview", page: location});
     }, [location, about]);
     return (
         <>
@@ -90,11 +89,11 @@ function App({children}) {
                                             {menuOpen && <div className="absolute flex flex-col text-left z-10">
                                                 <NavLink to="/volume-1"
                                                          className={({isActive}) => `px-5 py-1.5 mb-0.5 rounded-tr ${isActive ? 'bg-gold' : 'bg-light-grey'}`}>
-                                                    Volume 1 - The Fracture of Shackles
+                                                    Book 1 - The Fracture of Shackles
                                                 </NavLink>
                                                 <NavLink to="/volume-2"
                                                          className={({isActive}) => `px-5 py-1.5 rounded-b ${isActive ? 'bg-gold' : 'bg-light-grey'}`}>
-                                                    Volume 2 - ...
+                                                    Book 2
                                                 </NavLink>
                                             </div>
                                             }

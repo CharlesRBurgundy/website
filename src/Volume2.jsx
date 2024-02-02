@@ -11,20 +11,23 @@ export default function Volume2() {
         <p className={`text-xl lg:text-2xl 2xl:text-3xl pt-5 pb-1 font-bold`}>
             The War of Obsidian and Mist
         </p>
-        <p className="text-3xl lg:text-4xl 2xl:text-5xl">
-            The tome 2
+        <p className="text-xl pb-1">
+            Book 2
         </p>
         <div className="w-full justify-center py-10">
             <div className="w-2/5 m-auto">
                 <img src={separator}/>
             </div>
         </div>
-        <p className="pb-6 px-12 font-cursive italic text-2xl first-letter:text-4xl">
-            To be release soon
-        </p>
         <div className="text-justify tracking-wide 2xl:pb-10">
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
-                Shorter, more talking about progress, etc.
+                As you may have read, The War of Obsidian and Mist is a trilogy, and I am proud to announce that
+                book 2 of the series is coming along well.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                Though I will not quite yet share too many details about the book itself, nor even talk about its title,
+                it will not be long before it is released to you! I will share occasional news about the progress on
+                both my website and social media, so keep in touch.
             </p>
         </div>
     </>);

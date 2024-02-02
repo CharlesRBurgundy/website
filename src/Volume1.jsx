@@ -12,6 +12,9 @@ export default function Volume1() {
         <p className={`text-xl lg:text-2xl 2xl:text-3xl pt-5 pb-1 font-bold`}>
             The War of Obsidian and Mist
         </p>
+        <p className="text-xl pb-1">
+            Book 1
+        </p>
         <p className="text-3xl lg:text-4xl 2xl:text-5xl">
             The Fracture of Shackles
         </p>
@@ -40,8 +43,13 @@ export default function Volume1() {
                 Fate is a cruel mistress in love with irony. Will Valirian find redemption, or are some doomed to
                 repeat the same mistakes until the very end?
             </p>
+            {/*
             <div className="text-center my-8">
                 <div className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg">Get Your Copy of The Fracture of Shackles</div>
+            </div>
+            */}
+            <div className="text-center text-gold my-4 text-xl font-bold">
+                Release date : Feb 24, 2024
             </div>
         </div>
         <p className="text-justify text-xl pt-5 font-bold">

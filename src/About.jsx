@@ -38,23 +38,35 @@ export default function About() {
             </div>
             <div className="flex flex-row gap-8 justify-center">
                 <div className="text-center">
-                    <div className="inline-block">
+                    <a
+                        href="https://www.instagram.com/charlesrburgundy/"
+                        target="_blank"
+                        className="inline-block"
+                    >
                         <Icon path={mdiInstagram} size={2} />
-                    </div>
+                    </a>
                 </div>
                 <div className="text-center">
-                    <div className="inline-block">
+                    <a
+                        href="https://www.facebook.com/profile.php?id=61556143042288"
+                        target="_blank"
+                        className="inline-block"
+                    >
                         <Icon path={mdiFacebook} size={2} />
-                    </div>
+                    </a>
                 </div>
                 <div className="text-center">
-                    <div className="inline-block scale-[1.7] py-3">
+                    <a
+                        href="https://twitter.com/C_R_Burgundy"
+                        target="_blank"
+                        className="inline-block scale-[1.7] py-3"
+                    >
                         <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
                             <g>
                                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#D0D0D0"></path>
                             </g>
                         </svg>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
