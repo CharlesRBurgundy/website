@@ -64,8 +64,8 @@ export default function Volume1() {
         <p className="text-justify text-xl pt-5 font-bold">
             A Quick Glance
         </p>
-        <div className="flex flex-row 2xl:pb-10 items-center">
-            <img className="w-48 p-4 pb-0" src={cover} />
+        <div className="md:flex md:flex-row 2xl:pb-10 items-center">
+            <img className="w-48 m-auto p-4 pb-0" src={cover} />
             <div className="text-justify tracking-wide">
                 <p className="py-1">
                     <b>Series Title:</b> The War of Obsidian and Mist<br/>
