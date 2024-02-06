@@ -1,5 +1,5 @@
 import separator from '/separator.svg';
-import cover from '/cover.png';
+import cover from '/cover_3d.png';
 import { useEffect } from "react";
 
 export default function Book1() {
