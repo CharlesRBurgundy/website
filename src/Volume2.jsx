@@ -1,6 +1,10 @@
 import separator from '/separator.svg';
+import { useEffect } from "react";
 
 export default function Volume2() {
+    useEffect(() => {
+        document.title = "The War of Obsidian and Mist - Book 2";
+    }, []);
     return (<>
         <p className={`font-cursive text-dark-silver text-xl lg:text-2xl 2xl:text-3xl 2xl:pb-4`}>
             &nbsp;<span
@@ -8,12 +12,12 @@ export default function Volume2() {
             R. <span
             className={`text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block`}>B</span>urgundy&nbsp;
         </p>
-        <p className={`text-xl lg:text-2xl 2xl:text-3xl pt-5 pb-1 font-bold`}>
+        <h1 className={`text-xl lg:text-2xl 2xl:text-3xl pt-5 pb-1 font-bold`}>
             The War of Obsidian and Mist
-        </p>
-        <p className="text-xl pb-1">
+        </h1>
+        <h1 className="text-xl pb-1">
             Book 2
-        </p>
+        </h1>
         <div className="w-full justify-center py-10">
             <div className="w-2/5 m-auto">
                 <img src={separator}/>

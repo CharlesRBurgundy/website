@@ -1,15 +1,19 @@
 import signature from '/signature.svg';
 import Icon from "@mdi/react";
 import { mdiFacebook, mdiInstagram } from "@mdi/js";
+import { useEffect } from "react";
 
 export default function About() {
+    useEffect(() => {
+        document.title = "Charles R. Burgundy - About";
+    }, []);
     return (<>
-        <p className="font-cursive text-dark-silver -rotate-3 text-2xl lg:text-3xl 2xl:text-5xl 2xl:pb-10">
+        <h1 className="font-cursive text-dark-silver -rotate-3 text-2xl lg:text-3xl 2xl:text-5xl 2xl:pb-10">
             &nbsp;<span
             className="text-3xl lg:text-4xl 2xl:text-6xl translate-y-1 px-0.5 inline-block">C</span>harles
             R. <span
             className="text-3xl lg:text-4xl 2xl:text-6xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
-        </p>
+        </h1>
         <div className="text-justify tracking-wide 2xl:pb-10">
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
                 Storytelling has always had a special place in my heart. Whether it was reading books until late at

@@ -1,21 +1,27 @@
 import separator from '/separator.svg';
 import portrait_small from '/portrait_small.png';
 import { NavLink } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Home() {
+    useEffect(() => {
+        document.title = "Charles R. Burgundy - The War of Obsidian and Mist";
+    }, []);
     return (<>
-        <p className={`font-cursive text-dark-silver text-xl lg:text-2xl 2xl:text-3xl 2xl:pb-4`}>
+        <h2 className={`font-cursive text-dark-silver text-xl lg:text-2xl 2xl:text-3xl 2xl:pb-4`}>
             &nbsp;<span
             className={`text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block`}>C</span>harles
             R. <span
             className={`text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block`}>B</span>urgundy&nbsp;
-        </p>
-        <p className={`text-xl lg:text-2xl 2xl:text-3xl pt-5 pb-1 font-bold`}>
-            The War of Obsidian and Mist
-        </p>
-        <p className="text-3xl lg:text-4xl 2xl:text-5xl">
-            The Fracture of Shackles
-        </p>
+        </h2>
+        <h1>
+            <span className={`text-xl lg:text-2xl 2xl:text-3xl pt-5 pb-1 font-bold`}>
+                The War of Obsidian and Mist
+            </span>
+            <span className="text-3xl lg:text-4xl 2xl:text-5xl">
+                The Fracture of Shackles
+            </span>
+        </h1>
         <div className="w-full justify-center py-8">
             <div className="w-2/5 m-auto">
                 <img src={separator}/>

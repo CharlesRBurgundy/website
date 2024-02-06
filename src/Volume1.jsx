@@ -1,7 +1,11 @@
 import separator from '/separator.svg';
 import cover from '/cover.png';
+import { useEffect } from "react";
 
 export default function Volume1() {
+    useEffect(() => {
+        document.title = "The War of Obsidian and Mist - Book 1 - The Fracture of Shackles";
+    }, []);
     return (<>
         <p className={`font-cursive text-dark-silver text-xl lg:text-2xl 2xl:text-3xl 2xl:pb-4`}>
             &nbsp;<span
@@ -9,15 +13,17 @@ export default function Volume1() {
             R. <span
             className={`text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block`}>B</span>urgundy&nbsp;
         </p>
-        <p className={`text-xl lg:text-2xl 2xl:text-3xl pt-5 pb-1 font-bold`}>
-            The War of Obsidian and Mist
-        </p>
-        <p className="text-xl pb-1">
-            Book 1
-        </p>
-        <p className="text-3xl lg:text-4xl 2xl:text-5xl">
-            The Fracture of Shackles
-        </p>
+        <h1>
+            <span className={`text-xl lg:text-2xl 2xl:text-3xl pt-5 pb-1 font-bold`}>
+                The War of Obsidian and Mist
+            </span>
+            <span className="text-xl pb-1">
+                Book 1
+            </span>
+            <span className="text-3xl lg:text-4xl 2xl:text-5xl">
+                The Fracture of Shackles
+            </span>
+        </h1>
         <div className="w-full justify-center py-8">
             <div className="w-2/5 m-auto">
                 <img src={separator}/>
@@ -65,7 +71,7 @@ export default function Volume1() {
             A Quick Glance
         </p>
         <div className="md:flex md:flex-row 2xl:pb-10 items-center">
-            <img className="w-64 md:w-48 m-auto p-4 pb-0" src={cover} />
+            <img className="w-64 md:w-48 m-auto p-4 pb-0" src={cover}/>
             <div className="text-justify tracking-wide">
                 <p className="py-1">
                     <b>Series Title:</b> The War of Obsidian and Mist<br/>

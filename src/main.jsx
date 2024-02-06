@@ -11,7 +11,6 @@ import About from "./About";
 import Contact from "./Contact";
 import Volume1 from "./Volume1.jsx";
 import Volume2 from "./Volume2.jsx";
-import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 
 const router = createBrowserRouter([
     {
@@ -38,13 +37,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <GoogleReCaptchaProvider
-            reCaptchaKey="6Le1AGUpAAAAAC51WMRIUQqNwGSeIq61OEK5S4"
-            language="en"
-        >
-            <RouterProvider router={router}>
-                <App/>
-            </RouterProvider>
-        </GoogleReCaptchaProvider>
+        <RouterProvider router={router}>
+            <App/>
+        </RouterProvider>
     </React.StrictMode>,
 )
