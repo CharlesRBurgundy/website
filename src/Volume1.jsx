@@ -43,13 +43,23 @@ export default function Volume1() {
                 Fate is a cruel mistress in love with irony. Will Valirian find redemption, or are some doomed to
                 repeat the same mistakes until the very end?
             </p>
-            {/*
+
             <div className="text-center my-8">
-                <div className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg">Get Your Copy of The Fracture of Shackles</div>
-            </div>
-            */}
-            <div className="text-center text-gold my-4 text-xl font-bold">
-                Release date : Feb 24, 2024
+                <div className="mb-2">Pre-order now !</div>
+                <a
+                    className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mr-4"
+                    href="https://mybook.to/NSZU"
+                    target="_blank"
+                >
+                    Amazon
+                </a>
+                <a
+                    className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg"
+                    href="https://www.barnesandnoble.com/w/the-fracture-of-shackles-charles-richard-burgundy/1144762298"
+                    target="_blank"
+                >
+                    Barnes and Noble
+                </a>
             </div>
         </div>
         <p className="text-justify text-xl pt-5 font-bold">
@@ -61,9 +71,10 @@ export default function Volume1() {
                 <p className="py-1">
                     <b>Series Title:</b> The War of Obsidian and Mist<br/>
                     <b>Book Title:</b> The Fracture of Shackles<br/>
-                    <b>Genre:</b> Epic fantasy<br/>
+                    <b>Genre:</b> Fantasy<br/>
                     <b>Age Category:</b> Adult<br/>
-                    <b>Formats:</b> Paperback and ebook<br/>
+                    <b>ISBN Paperback :</b> 978-2-9591370-0-6<br/>
+                    <b>ISBN eBook :</b> 978-2-9591370-1-3<br/>
                 </p>
             </div>
         </div>

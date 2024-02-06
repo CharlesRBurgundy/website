@@ -39,6 +39,23 @@ export default function Home() {
                 <NavLink to="/volume-1">&nbsp;Discover the book →&nbsp;</NavLink>
             </div>
         </div>
+        <div className="text-center my-8">
+            <div className="mb-2">Pre-order now !</div>
+            <a
+                className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mr-4"
+                href="https://mybook.to/NSZU"
+                target="_blank"
+            >
+                Amazon
+            </a>
+            <a
+                className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg"
+                href="https://www.barnesandnoble.com/w/the-fracture-of-shackles-charles-richard-burgundy/1144762298"
+                target="_blank"
+            >
+                Barnes and Noble
+            </a>
+        </div>
         <div className="w-full justify-center py-8">
             <div className="w-2/5 m-auto">
                 <img src={separator}/>

@@ -31,7 +31,7 @@ export default function About() {
                 coming along the way.
             </p>
             <div className="text-center">
-                <img className="inline ml-60 w-60 -rotate-6" src={signature} alt="signature"/>
+                <img className="inline ml-60 w-44 -rotate-6" src={signature} alt="signature"/>
             </div>
             <div className="text-center pt-8 pb-2">
                 Follow me on my social media accounts
