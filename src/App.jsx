@@ -13,8 +13,8 @@ function App({children}) {
     const location = useLocation();
     const about = useMemo(() => location.pathname === '/about', [location]);
     const isBookPage = useMemo(() =>
-            location.pathname === '/volume-1' ||
-            location.pathname === '/volume-2'
+            location.pathname === '/book-1' ||
+            location.pathname === '/book-2'
         , [location]);
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -87,11 +87,11 @@ function App({children}) {
                                                 Books
                                             </div>
                                             {menuOpen && <div className="absolute flex flex-col text-left z-10">
-                                                <NavLink to="/volume-1"
+                                                <NavLink to="/book-1"
                                                          className={({isActive}) => `px-5 py-1.5 mb-0.5 rounded-tr ${isActive ? 'bg-gold' : 'bg-light-grey'}`}>
                                                     Book 1 - The Fracture of Shackles
                                                 </NavLink>
-                                                <NavLink to="/volume-2"
+                                                <NavLink to="/book-2"
                                                          className={({isActive}) => `px-5 py-1.5 rounded-b ${isActive ? 'bg-gold' : 'bg-light-grey'}`}>
                                                     Book 2
                                                 </NavLink>

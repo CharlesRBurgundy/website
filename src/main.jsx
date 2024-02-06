@@ -9,8 +9,8 @@ import App from './App.jsx'
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
-import Volume1 from "./Volume1.jsx";
-import Volume2 from "./Volume2.jsx";
+import Book1 from "./Book1.jsx";
+import Book2 from "./Book2.jsx";
 
 const router = createBrowserRouter([
     {
@@ -18,12 +18,12 @@ const router = createBrowserRouter([
         element: <App><Home/></App>,
     },
     {
-        path: "/volume-1",
-        element: <App><Volume1/></App>,
+        path: "/book-1",
+        element: <App><Book1/></App>,
     },
     {
-        path: "/volume-2",
-        element: <App><Volume2/></App>,
+        path: "/book-2",
+        element: <App><Book2/></App>,
     },
     {
         path: "/about",

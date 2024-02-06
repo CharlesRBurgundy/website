@@ -42,7 +42,7 @@ export default function Home() {
                 literary journey of complex relationships, mysterious powers, and struggle for survival.
             </p>
             <div className="text-right text-gold py-2 underline decoration-gold/[.5] underline-offset-4">
-                <NavLink to="/volume-1">&nbsp;Discover the book →&nbsp;</NavLink>
+                <NavLink to="/book-1">&nbsp;Discover the book →&nbsp;</NavLink>
             </div>
         </div>
         <div className="text-center my-8">

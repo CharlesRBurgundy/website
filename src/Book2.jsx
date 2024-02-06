@@ -1,7 +1,7 @@
 import separator from '/separator.svg';
 import { useEffect } from "react";
 
-export default function Volume2() {
+export default function Book2() {
     useEffect(() => {
         document.title = "The War of Obsidian and Mist - Book 2";
     }, []);

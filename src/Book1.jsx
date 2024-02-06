@@ -2,7 +2,7 @@ import separator from '/separator.svg';
 import cover from '/cover.png';
 import { useEffect } from "react";
 
-export default function Volume1() {
+export default function Book1() {
     useEffect(() => {
         document.title = "The War of Obsidian and Mist - Book 1 - The Fracture of Shackles";
     }, []);
