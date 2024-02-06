@@ -73,12 +73,12 @@ function App({children}) {
 
                             <div className="h-full flex flex-col pb-4">
                                 <div className="grow-0 py-6 lg:py-8 text-lg">
-                                    <div className="flex flex-row gap-2 md:gap-8 justify-center">
+                                    <div className="flex flex-row gap-4 md:gap-8 justify-center">
                                         <NavLink to="/"
                                                  className={({isActive}) => `px-5 pt-0.5 pb-1.5 mb-0.5 rounded ${isActive ? 'bg-gold' : 'bg-light-grey'}`}>
                                             Home
                                         </NavLink>
-                                        <div className="py-1 text-dark-silver">◆</div>
+                                        <div className="hidden md:block py-1 text-dark-silver">◆</div>
                                         <div>
                                             <div
                                                 className={`px-5 pt-0.5 pb-1.5 rounded mb-0.5 ${isBookPage ? 'bg-gold' : 'bg-light-grey'} ${menuOpen ? 'rounded-b-none' : ''}`}
@@ -98,7 +98,7 @@ function App({children}) {
                                             </div>
                                             }
                                         </div>
-                                        <div className="py-1 text-dark-silver">◆</div>
+                                        <div className="hidden md:block py-1 text-dark-silver">◆</div>
                                         <NavLink to="/about"
                                                  className={({isActive}) => `px-5 pt-0.5 pb-1.5 mb-0.5 rounded ${isActive ? 'bg-gold' : 'bg-light-grey'}`}>
                                             About
