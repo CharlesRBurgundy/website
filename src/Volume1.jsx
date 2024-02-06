@@ -45,7 +45,7 @@ export default function Volume1() {
             </p>
 
             <div className="text-center my-8">
-                <div className="mb-2">Pre-order now !</div>
+                <div className="mb-2">Pre-order now!</div>
                 <a
                     className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mr-4"
                     href="https://mybook.to/NSZU"
@@ -73,8 +73,8 @@ export default function Volume1() {
                     <b>Book Title:</b> The Fracture of Shackles<br/>
                     <b>Genre:</b> Fantasy<br/>
                     <b>Age Category:</b> Adult<br/>
-                    <b>ISBN Paperback :</b> 978-2-9591370-0-6<br/>
-                    <b>ISBN eBook :</b> 978-2-9591370-1-3<br/>
+                    <b>ISBN Paperback:</b> 978-2-9591370-0-6<br/>
+                    <b>ISBN eBook:</b> 978-2-9591370-1-3<br/>
                 </p>
             </div>
         </div>

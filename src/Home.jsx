@@ -40,7 +40,7 @@ export default function Home() {
             </div>
         </div>
         <div className="text-center my-8">
-            <div className="mb-2">Pre-order now !</div>
+            <div className="mb-2">Pre-order now!</div>
             <a
                 className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mr-4"
                 href="https://mybook.to/NSZU"
