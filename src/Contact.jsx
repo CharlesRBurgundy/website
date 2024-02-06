@@ -1,11 +1,21 @@
 import Icon from '@mdi/react';
 import { mdiFacebook, mdiInstagram } from '@mdi/js';
+import { useCallback, useState } from "react";
+import { GoogleReCaptcha } from "react-google-recaptcha-v3";
 
 export default function Contact() {
+    const [token, setToken] = useState();
+    const [refreshReCaptcha, setRefreshReCaptcha] = useState(false);
+
+    const onVerify = useCallback((token) => {
+        setToken(token);
+    });
+
+    const doSomething = () => {
+        setRefreshReCaptcha(r => !r);
+    }
+
     return (<>
-        <p className="text-3xl lg:text-4xl 2xl:text-5xl py-8 2xl:py-12">
-            Please Hesitate
-        </p>
         <div className="text-justify tracking-wide 2xl:pb-4">
             <p className="py-1 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3 pb-4">
                 I always appreciate hearing from my fans! If you'd like to reach out, feel free to connect with me
@@ -48,7 +58,18 @@ export default function Contact() {
                 </div>
             </div>
             <div className="text-center pt-8 pb-2">
-                For business inquiries, see the email below.
+                {!!token && (
+                    <>
+                        For business inquiries, see the email below.
+                        <GoogleReCaptcha
+                            onVerify={onVerify}
+                            refreshReCaptcha={refreshReCaptcha}
+                        />
+                        <button onClick={doSomething}>
+                            Do Something
+                        </button>
+                    </>
+                )}
             </div>
         </div>
     </>);
