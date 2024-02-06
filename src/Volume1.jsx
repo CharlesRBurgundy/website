@@ -23,7 +23,7 @@ export default function Volume1() {
                 <img src={separator}/>
             </div>
         </div>
-        <p className="pb-4 px-24 font-cursive italic text-xl first-letter:text-4xl">
+        <p className="px-4 pb-4 md:px-24 font-cursive italic text-xl first-letter:text-4xl">
             When forced in a war that isn't his, how can an enslaved nobleman combine honour and survival ?
         </p>
         <div className="text-justify tracking-wide">

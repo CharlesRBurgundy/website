@@ -29,8 +29,8 @@ function App({children}) {
     }, [location, about]);
     return (
         <>
-            <div className="md:fixed w-screen h-screen md:overflow-hidden">
-                <div className="fixed -z-10 bottom-0 left-0 w-screen h-screen bg-noise bg-cover"/>
+            <div className="w-screen h-screen md:fixed md:overflow-hidden">
+                <div className="fixed -z-10 max-sm:top-0 md:bottom-0 left-0 w-full h-full md:w-screen md:h-screen bg-noise bg-cover"/>
                 <div
                     className="hidden md:block fixed z-10 left-0 bottom-0 opacity-80 animate-float-left pointer-events-none">
                     {!about && <img src={smokeL} alt="smoke"/>}
@@ -42,7 +42,7 @@ function App({children}) {
                     {about && <img src={smokeRedR} alt="smoke"/>}
                 </div>
                 <div
-                    className="fixed z-15 bottom-0 left-0 w-screen h-screen bg-gradient bg-cover pointer-events-none       "/>
+                    className="fixed z-15 max-sm:top-0 md:bottom-0 left-0 w-full h-full md:w-screen md:h-screen bg-gradient bg-cover pointer-events-none"/>
                 <div
                     className="relative px-4 py-16 sm:p-8 md:p-12 lg:p-20 lg:pb-12 h-full mx-auto lg:max-w-[1600px] flex">
                     <div className="hidden md:block md:w-2/5 h-full">
@@ -58,7 +58,7 @@ function App({children}) {
                                 <img className="animate-fade" src={author} alt="author"/>}
                         </div>
                     </div>
-                    <div className="md:w-3/5 animate-fade flex flex-col z-20">
+                    <div className="w-full md:w-3/5 animate-fade flex flex-col z-20">
                         <div
                             className={`relative inline-block bg-dark-grey text-center text-silver font-serif m-6 md:max-h-[74vh] 
                                         ${about ? 'shadow-[0_0_140px_rgba(185,38,28,0.33)]' : 'shadow-[0_0_140px_rgba(212,149,224,0.33)]'}`}>
@@ -73,7 +73,7 @@ function App({children}) {
 
                             <div className="h-full flex flex-col pb-4">
                                 <div className="grow-0 py-6 lg:py-8 text-lg">
-                                    <div className="flex flex-row gap-8 justify-center">
+                                    <div className="flex flex-row gap-2 md:gap-8 justify-center">
                                         <NavLink to="/"
                                                  className={({isActive}) => `px-5 pt-0.5 pb-1.5 mb-0.5 rounded ${isActive ? 'bg-gold' : 'bg-light-grey'}`}>
                                             Home
@@ -105,8 +105,8 @@ function App({children}) {
                                         </NavLink>
                                     </div>
                                 </div>
-                                <div className="grow overflow-y-scroll">
-                                    <div className="p-4 sm:px-12 md:px-8 lg:px-12">
+                                <div className="grow md:overflow-y-scroll">
+                                    <div className="py-4 md:px-4 sm:px-12 md:px-8 lg:px-12">
                                         {children}
                                     </div>
                                 </div>

@@ -30,8 +30,8 @@ export default function About() {
                 I find myself drawn to this path more and more. I can promise quite a few more books will be
                 coming along the way.
             </p>
-            <div className="text-center">
-                <img className="inline ml-60 w-44 -rotate-6" src={signature} alt="signature"/>
+            <div className="text-right md:text-center">
+                <img className="inline md:ml-60 w-44 -rotate-6" src={signature} alt="signature"/>
             </div>
             <div className="text-center pt-8 pb-2">
                 Follow me on my social media accounts
