@@ -24,7 +24,7 @@ export default function Home() {
         </h1>
         <div className="w-full justify-center py-8">
             <div className="w-2/5 m-auto">
-                <img src={separator}/>
+                <img src={separator} alt="---"/>
             </div>
         </div>
         <div className="text-justify tracking-wide">
@@ -64,12 +64,12 @@ export default function Home() {
         </div>
         <div className="w-full justify-center py-8">
             <div className="w-2/5 m-auto">
-                <img src={separator}/>
+                <img src={separator} alt="---"/>
             </div>
         </div>
         <div className="text-justify tracking-wide 2xl:pb-10 flex flex-row gap-4">
             <div className="grow-0 shrink-0 w-32 h-32 opacity-80 border-2 border-gold">
-                <img src={portrait_small}/>
+                <img src={portrait_small} alt="author portrait"/>
             </div>
             <div className="grow">
                 <p className="pt-2">

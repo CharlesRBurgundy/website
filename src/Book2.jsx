@@ -20,7 +20,7 @@ export default function Book2() {
         </h1>
         <div className="w-full justify-center py-10">
             <div className="w-2/5 m-auto">
-                <img src={separator}/>
+                <img src={separator} alt="---"/>
             </div>
         </div>
         <div className="text-justify tracking-wide 2xl:pb-10">

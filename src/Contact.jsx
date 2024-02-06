@@ -15,7 +15,7 @@ export default function Contact() {
         </h1>
         <div className="w-full justify-center py-8">
             <div className="w-2/5 m-auto">
-                <img src={separator}/>
+                <img src={separator} alt="---"/>
             </div>
         </div>
         <div className="text-justify tracking-wide 2xl:pb-4">

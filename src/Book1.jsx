@@ -26,7 +26,7 @@ export default function Book1() {
         </h1>
         <div className="w-full justify-center py-8">
             <div className="w-2/5 m-auto">
-                <img src={separator}/>
+                <img src={separator} alt="---"/>
             </div>
         </div>
         <p className="px-4 pb-4 md:px-24 font-cursive italic text-xl first-letter:text-4xl">
@@ -71,7 +71,7 @@ export default function Book1() {
             A Quick Glance
         </p>
         <div className="md:flex md:flex-row 2xl:pb-10 items-center">
-            <img className="w-64 md:w-48 m-auto p-4 pb-0" src={cover}/>
+            <img className="w-64 md:w-48 m-auto p-4 pb-0" src={cover} alt="book 3d cover"/>
             <div className="text-justify tracking-wide">
                 <p className="py-1">
                     <b>Series Title:</b> The War of Obsidian and Mist<br/>
