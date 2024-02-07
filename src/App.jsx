@@ -32,14 +32,14 @@ function App({children}) {
             <div className="w-screen h-screen md:fixed md:overflow-hidden">
                 <div className="fixed -z-10 max-sm:top-0 md:bottom-0 left-0 w-full h-full md:w-screen md:h-screen bg-noise bg-cover"/>
                 <div
-                    className="hidden md:block fixed z-10 left-0 bottom-0 opacity-80 animate-float-left pointer-events-none">
-                    {!about && <img src={smokeL} alt="smoke"/>}
-                    {about && <img src={smokeRedL} alt="smoke"/>}
+                    className="hidden md:block fixed max-w-[80%] z-10 left-0 bottom-0 opacity-80 animate-float-left pointer-events-none">
+                    {!about && <img src={smokeL} alt="smoke" className="w-full"/>}
+                    {about && <img src={smokeRedL} alt="smoke" className="w-full"/>}
                 </div>
                 <div
-                    className="hidden md:block fixed z-10 right-0 bottom-0 opacity-80 animate-float-right pointer-events-none">
-                    {!about && <img src={smokeR} alt="smoke"/>}
-                    {about && <img src={smokeRedR} alt="smoke"/>}
+                    className="hidden md:block fixed max-w-[80%] z-10 right-0 bottom-0 opacity-80 animate-float-right pointer-events-none">
+                    {!about && <img src={smokeR} alt="smoke" className="w-full"/>}
+                    {about && <img src={smokeRedR} alt="smoke" className="w-full"/>}
                 </div>
                 <div
                     className="fixed z-15 max-sm:top-0 md:bottom-0 left-0 w-full h-full md:w-screen md:h-screen bg-gradient bg-cover pointer-events-none"/>
