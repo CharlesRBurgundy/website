@@ -17,7 +17,7 @@ export default function Home() {
         <h1>
             <span className={`text-xl lg:text-2xl 2xl:text-3xl pt-5 pb-1 font-bold`}>
                 The War of Obsidian and Mist
-            </span>
+            </span><br />
             <span className="text-3xl lg:text-4xl 2xl:text-5xl">
                 The Fracture of Shackles
             </span>
