@@ -1,9 +1,9 @@
-import queen from '/queen.png';
-import author from '/author.png';
-import smokeL from '/smoke_l.png';
-import smokeR from '/smoke_r.png';
-import smokeRedL from '/smoke_red_l.png';
-import smokeRedR from '/smoke_red_r.png';
+import queen from '/queen.webp';
+import author from '/author.webp';
+import smokeL from '/smoke_l.webp';
+import smokeR from '/smoke_r.webp';
+import smokeRedL from '/smoke_red_l.webp';
+import smokeRedR from '/smoke_red_r.webp';
 import { NavLink, useLocation } from "react-router-dom";
 import { useEffect, useMemo, useState } from "react";
 import ReactGA from "react-ga4";

@@ -1,5 +1,5 @@
 import separator from '/separator.svg';
-import portrait_small from '/portrait_small.png';
+import portrait_small from '/portrait_small.jpg';
 import { NavLink } from "react-router-dom";
 import { useEffect } from "react";
 

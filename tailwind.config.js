@@ -20,7 +20,7 @@ export default {
         },
         extend: {
             backgroundImage: {
-                'noise': "url('/noise.png')",
+                'noise': "url('/noise.webp')",
                 'gradient': "radial-gradient(circle, rgba(33,19,6,0) 75%, rgba(33,19,6,0.66) 100%);",
             },
             animation: {
