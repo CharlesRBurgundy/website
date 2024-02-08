@@ -30,7 +30,7 @@ export default function Home() {
         <div className="text-justify tracking-wide">
             <p className={`py-1 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3`}>
                 The Fracture of Shackles is the first book of the War of Obsidian and Mist saga, an adult
-                fantasy trilogy which borrows some elements from dark fantasy.
+                fantasy trilogy which borrows some elements from dark and epic fantasy.
             </p>
             <p className={`py-1 first-letter:text-2xl first-letter:font-bold`}>
                 It is the story of Valirian, a young nobleman solid into slavery to the empire of Koresh, his people’s
