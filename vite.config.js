@@ -4,7 +4,7 @@ import Sitemap from 'vite-plugin-sitemap'
 
 const siteMapConfig = {
     hostname: 'https://charlesrburgundy.com/',
-    dynamicRoutes: ['/about','/book-1','/book-2','/contact']
+    dynamicRoutes: ['/#/about','/#/book-1','/#/book-2','/#/contact']
 }
 
 // https://vitejs.dev/config/
