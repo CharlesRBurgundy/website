@@ -27,8 +27,13 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Copy index.html to 404.html
-        run: cp dist/index.html dist/404.html
+      - name: Copy index.html to 404.html, about.html, book-1.html, book-2.html and contact.html
+        run:
+          cp dist/index.html dist/404.html &&
+          cp dist/index.html dist/about.html &&
+          cp dist/index.html dist/book-1.html &&
+          cp dist/index.html dist/book-2.html &&
+          cp dist/index.html dist/contact.html
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
