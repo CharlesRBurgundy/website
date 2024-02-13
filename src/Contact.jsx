@@ -43,7 +43,7 @@ export default function Contact() {
                         <Icon path={mdiFacebook} size={2}/>
                     </a>
                 </div>
-                <div className="text-center">
+                <div className="text-center w-12">
                     <a
                         href="https://twitter.com/C_R_Burgundy"
                         target="_blank"
