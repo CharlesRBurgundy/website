@@ -82,5 +82,19 @@ export default function Home() {
                 </div>
             </div>
         </div>
+        <div className="w-full justify-center py-8">
+            <div className="w-2/5 m-auto">
+                <img src={separator} alt="---"/>
+            </div>
+        </div>
+        <div className="text-center 2xl:pb-10">
+            <a
+                className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mx-2 mb-2"
+                href="https://mailchi.mp/6edfaed1f036/charles-r-burgundy"
+                target="_blank"
+            >
+                Subscribe to my newsletter
+            </a>
+        </div>
     </>);
 }

@@ -120,6 +120,8 @@ function App({children}) {
                                     <span className="px-5">-</span>
                                     <NavLink to="/contact"
                                              className={({isActive}) => isActive ? "underline" : ""}>Contact</NavLink>
+                                    <span className="px-5">-</span>
+                                    <a href="https://mailchi.mp/6edfaed1f036/charles-r-burgundy" target="_blank">Newsletter</a>
                                 </div>
                                 <p>&copy; {(new Date().getFullYear())}, Charles R. Burgundy</p>
                             </div>
