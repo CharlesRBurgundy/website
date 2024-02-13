@@ -11,6 +11,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Book1 from "./Book1.jsx";
 import Book2 from "./Book2.jsx";
+import News from "./News";
 
 const router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
     {
         path: "/contact",
         element: <App><Contact/></App>,
+    },
+    {
+        path: "/news",
+        element: <App><News/></App>,
     },
 ]);
 
