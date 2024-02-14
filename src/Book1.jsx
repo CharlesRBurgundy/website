@@ -1,8 +1,9 @@
 import separator from '/separator.svg';
 import cover from '/cover_3d.webp';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function Book1() {
+    const [wideImage, setWideImage] = useState(false);
     useEffect(() => {
         document.title = "The War of Obsidian and Mist - Book 1 - The Fracture of Shackles";
     }, []);
@@ -70,8 +71,8 @@ export default function Book1() {
         <p className="text-justify text-xl pt-5 font-bold">
             A Quick Glance
         </p>
-        <div className="md:flex md:flex-row 2xl:pb-10 items-center">
-            <img className="w-64 md:w-48 max-sm:m-auto p-4 pb-0" src={cover} alt="book 3d cover"/>
+        <div className={`${wideImage?'':'md:flex md:flex-row'} 2xl:pb-10 items-center`}>
+            <img className={`${wideImage?'w-full cursor-zoom-out':'w-64 md:w-48 lg:w-64 cursor-zoom-in'} max-sm:m-auto p-4 pb-0`} src={cover} alt="book 3d cover" onClick={()=>setWideImage(!wideImage)}/>
             <div className="text-justify tracking-wide">
                 <p className="py-1">
                     <b>Series Title:</b> The War of Obsidian and Mist<br/>
