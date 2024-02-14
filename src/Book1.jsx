@@ -72,7 +72,7 @@ export default function Book1() {
             A Quick Glance
         </p>
         <div className={`${wideImage?'':'md:flex md:flex-row'} 2xl:pb-10 items-center`}>
-            <img className={`${wideImage?'w-full cursor-zoom-out':'w-64 md:w-48 lg:w-64 cursor-zoom-in'} max-sm:m-auto p-4 pb-0`} src={cover} alt="book 3d cover" onClick={()=>setWideImage(!wideImage)}/>
+            <img className={`${wideImage?'w-full cursor-zoom-out':'w-64 md:w-48 lg:w-64 p-4 cursor-zoom-in'} max-sm:m-auto pb-0`} src={cover} alt="book 3d cover" onClick={()=>setWideImage(!wideImage)}/>
             <div className="text-justify tracking-wide">
                 <p className="py-1">
                     <b>Series Title:</b> The War of Obsidian and Mist<br/>
