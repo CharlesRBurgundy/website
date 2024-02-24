@@ -51,7 +51,7 @@ export default function Book1() {
                 repeat the same mistakes until the very end?
             </p>
             <div className="text-center my-8">
-                <div className="mb-2">Pre-order now!</div>
+                <div className="mb-2">Get your copy now!</div>
                 <a
                     className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mx-2 mb-2"
                     href="https://mybook.to/NSZU"
