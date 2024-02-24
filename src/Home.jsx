@@ -61,7 +61,14 @@ export default function Home() {
                 href="https://www.barnesandnoble.com/w/the-fracture-of-shackles-charles-richard-burgundy/1144762298"
                 target="_blank"
             >
-                Barnes and Noble
+                Barnes & Noble
+            </a>
+            <a
+                className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mx-2"
+                href="https://books2read.com/u/m2KaxG"
+                target="_blank"
+            >
+                eBook
             </a>
         </div>
         <div className="w-full justify-center py-8">
