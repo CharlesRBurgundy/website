@@ -16,6 +16,37 @@ export default function News() {
                     <img src={separator} alt="---"/>
                 </div>
             </div>
+            <h2 className="text-center text-xl pb-1">A Return from a short break.</h2>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 20th of March 2024</div>
+            <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
+                I took some days off to allow myself to breathe a little bit, and make sure that I return to my
+                writing with a refreshed mind. Without spoiling anything, as I am sure some who will read this news
+                have yet to read <NavLink className="text-gold font-bold underline underline-offset-2" to="/book-1">my first book</NavLink>, I want to ensure that the second part of the trilogy lives up to my,
+				and your, expectations.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                There were a few details that still irked me in this current draft, but I believe this break brought
+                me the much-needed new perspective. So, onto the next draft! I would like to also take a moment to
+				thank those of you who have taken the time to give me your feedback. Hearing that people are enjoying
+				my work is incredibly gratifying!
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                To finish this quick post, I will just make the announcement of an announcement. Something quite
+				exciting is coming this Friday, so stay tuned!
+            </p>
+            <div className="text-right font-cursive text-dark-silver text-xl pr-12 pt-4">
+                &nbsp;<span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">C</span>harles
+                R. <span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
+            </div>
+        </div>
+        <div className="text-justify tracking-wide">
+            <div className="w-full justify-center py-8">
+                <div className="w-2/5 m-auto">
+                    <img src={separator} alt="---"/>
+                </div>
+            </div>
             <h2 className="text-center text-xl pb-1">The book is published! What now?</h2>
             <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 27th of February 2024</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
@@ -24,7 +55,7 @@ export default function News() {
                 websites being a little messed up, everything was rather smooth (and that detail should be fixed now).
             </p>
             <p className="py-1 first-letter:text-2xl first-letter:font-bold">
-                A fair question to ask is: what now? On my end, you can imagine that I was not simply sitting idle,
+                A fair question to ask is: what now? On my end, you can imagine that I was not simply sitting idly,
                 waiting (im)patiently for the 24th. I don’t have a date yet, and it will certainly be quite some months
 				before I do, but book 2 is coming along nicely. There are just a few rough edges I wish to smooth out.
             </p>
