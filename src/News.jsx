@@ -1,5 +1,6 @@
 import {  useEffect } from "react";
 import separator from '/separator.svg';
+import Clover2 from '/Clover2.png';
 import { NavLink } from "react-router-dom";
 
 export default function News() {
@@ -140,6 +141,9 @@ export default function News() {
                 className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">C</span>harles
                 R. <span
                 className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
+            </div>
+            <div className="w-3/5 m-auto">
+                <img src={Clover2} alt="Lucky Seven Indie Author"/>
             </div>
         </div>
         <div className="text-justify tracking-wide">
