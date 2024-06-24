@@ -16,6 +16,37 @@ export default function News() {
                     <img src={separator} alt="---"/>
                 </div>
             </div>
+            <h2 className="text-center text-xl pb-1">Long-Awaited</h2>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 24th of June 2024</div>
+            <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
+                Quite some time has passed since I last wrote some news. Admittedly, it has been a bit longer than I
+                originally wished, but the main reason is that I preferred focusing alo of my attention on writing,
+                and bring news of significant progress, rather than sharing every step, including the little bumps
+                on the road, and risk frustration (on both my and your end).
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                So, what news do I bring, you may ask? Well, book 2 of the War of Obsidian and Mist, <span className="text-gold font-bold">"A Home of Mist"</span>,
+                is now finished. Almost. On my end, I've reached a satisfying point, where the story is good and with
+				the right nuances. It still needs to be edited, the cover needs to be done, etc., but the majority of
+				the work is done. It is still too early to give an exact publishing date, but I am aiming for early 2025.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                You may take this as the first official announcement, however! Book 2 i not that far away, and I have
+				also been working on a side project, though I will say no more about it right now. Stay tuned!
+            </p>
+            <div className="text-right font-cursive text-dark-silver text-xl pr-12 pt-4">
+                &nbsp;<span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">C</span>harles
+                R. <span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
+            </div>
+        </div>
+        <div className="text-justify tracking-wide">
+            <div className="w-full justify-center py-8">
+                <div className="w-2/5 m-auto">
+                    <img src={separator} alt="---"/>
+                </div>
+            </div>
             <h2 className="text-center text-xl pb-1">Lucky Seven Indie Author Promotion!</h2>
             <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 22nd of March 2024</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
