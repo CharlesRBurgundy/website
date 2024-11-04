@@ -17,6 +17,34 @@ export default function News() {
                     <img src={separator} alt="---"/>
                 </div>
             </div>
+            <h2 className="text-center text-xl pb-1">First Announcement, Second Novel</h2>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 4th of November 2024</div>
+            <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
+                I am delighted to be finally able to make this announcement: my editor and I have set the dates for
+                the edition of my second novel and second part of the War of Obsidian and Mist trilogy: <span className="text-gold font-bold">A Home of Mist</span>.
+                I wanted to be absolutely certain there would be no issues before I made this announcement, as there
+                had been delays (though they were related to personal matters that are now mostly solved).
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                I can therefore share that <span className="text-gold font-bold">A Home of Mist</span> is set to come out during April 2025!
+				Of course, when the time comes, I will share with you the exact release date, the pre-order links, etc.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                Now is a good time to follow me on social media. I have a few teasers that will arrive on the way.
+            </p>
+            <div className="text-right font-cursive text-dark-silver text-xl pr-12 pt-4">
+                &nbsp;<span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">C</span>harles
+                R. <span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
+            </div>
+        </div>
+        <div className="text-justify tracking-wide">
+            <div className="w-full justify-center py-8">
+                <div className="w-2/5 m-auto">
+                    <img src={separator} alt="---"/>
+                </div>
+            </div>
             <h2 className="text-center text-xl pb-1">Long-Awaited</h2>
             <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 24th of June 2024</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
