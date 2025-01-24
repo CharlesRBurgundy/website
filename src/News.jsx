@@ -17,6 +17,46 @@ export default function News() {
                     <img src={separator} alt="---"/>
                 </div>
             </div>
+            <h2 className="text-center text-xl pb-1">And a Happy New Year!</h2>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 24th of January 2025</div>
+            <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
+                First and foremost, as this is my first post of 2025, happy new year! Coincidentally, this is also the
+				anniversary of the very first news ever posted on this website, so I thought I would share some good news.
+				I was slightly delayed in making this post, as a pesky, but thankfully rather mild, illness bothered me for
+				a good chunk of January. Regardless, onto what I have to share!
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                As you might have heard, my second book and second part of the War of Obsidian and Mist trilogy, <span className="text-gold font-bold">A Home of Mist</span>,
+				is nearly done, and by that I mean that it is going through the final phases of edition. Release is not so far,
+				and my original plan to have the release day be somewhere in April 2025 has not changed. In the mean time,
+				I have updated <NavLink className="text-gold font-bold underline underline-offset-2" to="/book-2">the page on my website about book 2</NavLink>, adding some more information (while avoiding spoilers
+				about both books 1 and 2, of course), so feel free to check it out!
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                I will spend a few lines, too, to talk about book 3, because time does truly fly, and I do not want anyone
+				to have to wait too long before book 3 comes out. I'm about half-way done with the first draft, which is
+				admittedly just a little below my origial goal of two-thirds done by this month, but certainly not any massive
+				delay. Progress has been good, but I do want to deliver a very compelling end to this trilogy (especially as I
+				believe endings to be an incredibly important part of a story), so I will focus on getting the exact tone,
+				nuances, and conclusions that fit the story over blindly meeting a deadline that would be set in 2026.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                With all that said, some things are on the way for February and March, leading up to the release of A Home of
+				Mist. I will talk about them in greater details in the second half of February!
+            </p>
+            <div className="text-right font-cursive text-dark-silver text-xl pr-12 pt-4">
+                &nbsp;<span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">C</span>harles
+                R. <span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
+            </div>
+        </div>
+        <div className="text-justify tracking-wide">
+            <div className="w-full justify-center py-8">
+                <div className="w-2/5 m-auto">
+                    <img src={separator} alt="---"/>
+                </div>
+            </div>
             <h2 className="text-center text-xl pb-1">First Announcement, Second Novel</h2>
             <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 4th of November 2024</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
