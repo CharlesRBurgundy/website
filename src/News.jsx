@@ -41,8 +41,8 @@ export default function News() {
 				nuances, and conclusions that fit the story over blindly meeting a deadline that would be set in 2026.
             </p>
             <p className="py-1 first-letter:text-2xl first-letter:font-bold">
-                With all that said, some things are on the way for February and March, leading up to the release of A Home of
-				Mist. I will talk about them in greater details in the second half of February!
+                With all that said, some things are on the way for March, leading up to the release of A Home of Mist.
+				I will talk about them in greater details in the second half of March!
             </p>
             <div className="text-right font-cursive text-dark-silver text-xl pr-12 pt-4">
                 &nbsp;<span

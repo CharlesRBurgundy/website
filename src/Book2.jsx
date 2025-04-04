@@ -29,18 +29,28 @@ export default function Book2() {
             </div>
         </div>
         <p className="px-4 pb-4 md:px-24 font-cursive italic text-xl first-letter:text-4xl">
-            In a land torn by war, the fate of thousands is to be decided by the bravery of a few.
+            In a land torn apart by war, the fate of thousands is to be decided by the bravery of a few.
         </p>
         <div className="text-justify tracking-wide 2xl:pb-10">
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
-                Beginning right after the end of the Fracture of Shackles, A Home of Mist continues the tale with
-				unexpected turns, a continued fight for survival, and fated confrontations. In this chaos, death is
-				everywhere, and all hope seems lost. Will a victor ever emerge?
+                The Battle of the Fortress is over. Those who remain struggle to find reasons to rejoice. Thousands
+				lie dead, and there is much Valirian musr rebuild. As Syrela, the War Hero, is nowhere to be seen,
+				and as trusting the Duchess, Lady Adiloka, seems evermore impossible, one thing becomes clear: this
+				conflict is far from finished.
             </p>
             <p className="py-1 first-letter:text-2xl first-letter:font-bold">
-                This second book of the War of Obsidian and Mist trilogy is coming in April 2025, though I have yet
-				to announce the exact date. Follow me on social media to make sure you miss none of the latest news!
+                At a turning point in history, where attempts at a diplomatic resolution look trickier at every
+				unexpected turn and unforeseen event, the survival of a nation is at stake. In this fratricidal
+				war, will a victor ever emerge?
             </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                Often, all hope for peace seems lost, especially as the red eye of the Lion of Obsidian, Tarasmir,
+				the Emperor of Koresh, looms on the horizon. Visions of a dark future plague many, yet there remains
+				a faint glimmer of hope. Does it shine bright enough? Will those fighting for a better future triumph?
+            </p>
+            <div className="text-center my-8">
+                <div className="mb-2">Coming out on the 19th of April 2025!</div>
+            </div>
         </div>
     </>);
 }

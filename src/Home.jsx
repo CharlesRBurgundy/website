@@ -31,20 +31,20 @@ export default function Home() {
         </div>
         <div className="text-justify tracking-wide">
             <p className={`py-1 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3`}>
-                The Fracture of Shackles is the first book of the War of Obsidian and Mist saga, an adult
-                fantasy trilogy which borrows some elements from dark and epic fantasy.
+                The War of Obsidian and Mist is an adult, low magic fantasy trilogy. It is a story I have wanted to tell
+				for many years now: sometimes grim, sometimes hopeful, it will take you on a journey of discover and survival.
             </p>
             <p className={`py-1 first-letter:text-2xl first-letter:font-bold`}>
-                It is the story of Valirian, a young nobleman solid into slavery to the empire of Koresh, his people’s
-                sworn enemy. Prey to magic beyond his understanding, and far from home, he faces moral
-                dilemmas as he witnesses the horrors of war.
+                It tells the story of Valirian, a young nobleman sold into slavery to the empire of Koresh, his people's sworn
+                enemy. Prey to magic beyond his understanding and far from home, how will he survive an increasingly hostile
+                environment as he witnesses the horrors of war?
             </p>
             <p className={`py-1 first-letter:text-2xl first-letter:font-bold`}>
-                Delve into the themes of morality, guilt, and forgiveness in this coming of age story, embark on this
-                literary journey of complex relationships, mysterious powers, and struggle for survival.
+                Embark on this coming of age story of dilemma, guilt, and forgiveness, with complex relationships, mysterious
+                powers, and struggle for survival.
             </p>
             <div className="text-right text-gold py-2 underline decoration-gold/[.5] underline-offset-4">
-                <NavLink to="/book-1">&nbsp;Discover the book →&nbsp;</NavLink>
+                <NavLink to="/book-1">&nbsp;Discover the books →&nbsp;</NavLink>
             </div>
         </div>
         <div className="text-center my-8">
