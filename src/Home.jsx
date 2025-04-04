@@ -32,7 +32,7 @@ export default function Home() {
         <div className="text-justify tracking-wide">
             <p className={`py-1 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3`}>
                 The War of Obsidian and Mist is an adult, low magic fantasy trilogy. It is a story I have wanted to tell
-				for many years now: sometimes grim, sometimes hopeful, it will take you on a journey of discover and survival.
+				for many years now: sometimes grim, sometimes hopeful, it will take you on a journey of discovery and survival.
             </p>
             <p className={`py-1 first-letter:text-2xl first-letter:font-bold`}>
                 It tells the story of Valirian, a young nobleman sold into slavery to the empire of Koresh, his people's sworn

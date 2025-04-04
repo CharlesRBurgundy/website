@@ -49,7 +49,7 @@ export default function Book2() {
 				a faint glimmer of hope. Does it shine bright enough? Will those fighting for a better future triumph?
             </p>
             <div className="text-center my-8">
-                <div className="mb-2">Coming out on the 19th of April 2025!</div>
+                <div className="mb-2">Coming out on the second half of April 2025!</div>
             </div>
         </div>
     </>);
