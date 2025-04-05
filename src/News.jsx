@@ -17,6 +17,34 @@ export default function News() {
                     <img src={separator} alt="---"/>
                 </div>
             </div>
+            <h2 className="text-center text-xl pb-1">An Amazing April Beginning</h2>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 24th of January 2025</div>
+            <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
+                The release of <span className="text-gold font-bold">A Home of Mist</span>. is getting nearer and nearer, and the cover reveal is just around the
+				corner! In fact, on the next weekend you will get to see the amazing result, made by the incredibly talented <a className="text-gold font-bold underline underline-offset-2" href="https://www.artstation.com/alexis-susani" target="_blank">Alexis Susani</a>.
+				After how well the first cover turned out, working with the same artist was quite a natural decision, and likewise I think you will be quite amazed at the result!
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                And on a similar note, there is another exciting announcement I shall make today: the release date of <span className="text-gold font-bold">A Home of Mist</span> is set for <span className="text-gold font-bold">the 19th of April!</span> Pre-orders 
+				will be available soon, and I will notify you all when they are so.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                To celebrate that, the <a className="text-gold font-bold underline underline-offset-2" href="https://books2read.com/u/m2KaxG" target="_blank">eBook for the Fracture of Shackles</a> will be on discount for $0.99 for the next
+				two weeks. So if you were hesitant, now is a great time to get your own copy!
+            </p>
+            <div className="text-right font-cursive text-dark-silver text-xl pr-12 pt-4">
+                &nbsp;<span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">C</span>harles
+                R. <span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
+            </div>
+        </div>
+        <div className="text-justify tracking-wide">
+            <div className="w-full justify-center py-8">
+                <div className="w-2/5 m-auto">
+                    <img src={separator} alt="---"/>
+                </div>
+            </div>
             <h2 className="text-center text-xl pb-1">And a Happy New Year!</h2>
             <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 24th of January 2025</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
