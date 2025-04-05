@@ -18,7 +18,7 @@ export default function News() {
                 </div>
             </div>
             <h2 className="text-center text-xl pb-1">An Amazing April Beginning</h2>
-            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 24th of January 2025</div>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 4th of April 2025</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
                 The release of <span className="text-gold font-bold">A Home of Mist</span>. is getting nearer and nearer, and the cover reveal is just around the
 				corner! In fact, on the next weekend you will get to see the amazing result, made by the incredibly talented <a className="text-gold font-bold underline underline-offset-2" href="https://www.artstation.com/alexis-susani" target="_blank">Alexis Susani</a>.
