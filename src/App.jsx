@@ -93,7 +93,7 @@ function App({children}) {
                                                 </NavLink>
                                                 <NavLink to="/book-2"
                                                          className={({isActive}) => `px-5 py-1.5 rounded-b ${isActive ? 'bg-gold' : 'bg-light-grey'}`}>
-                                                    Book 2
+                                                    Book 2 - A Home of Mist
                                                 </NavLink>
                                             </div>
                                             }
