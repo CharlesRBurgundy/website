@@ -34,7 +34,7 @@ export default function Book2() {
         <div className="text-justify tracking-wide 2xl:pb-10">
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
                 The Battle of the Fortress is over. Those who remain struggle to find reasons to rejoice. Thousands
-				lie dead, and there is much Valirian musr rebuild. As Syrela, the War Hero, is nowhere to be seen,
+				lie dead, and there is much Valirian must rebuild. As Syrela, the War Hero, is nowhere to be seen,
 				and as trusting the Duchess, Lady Adiloka, seems evermore impossible, one thing becomes clear: this
 				conflict is far from finished.
             </p>
