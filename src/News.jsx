@@ -17,6 +17,34 @@ export default function News() {
                     <img src={separator} alt="---"/>
                 </div>
             </div>
+            <h2 className="text-center text-xl pb-1">Today is the Day—A Home of Mist is out!</h2>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 19th of April 2025</div>
+            <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
+                It is with the widest of smiles that I can finally say this: <span className="text-gold font-bold">A Home of Mist</span> is out! As mentioned in my recent post, I
+				once again partnered with <a className="text-gold font-bold underline underline-offset-2" href="https://www.artstation.com/alexis-susani" target="_blank">Alexis Susani</a> to create the cover illustration. Be sure to check him out on <a className="text-gold font-bold underline underline-offset-2" href="https://www.instagram.com/alexisusani/" target="_blank">Instagram</a> and
+				his other <a className="text-gold font-bold underline underline-offset-2" href="https://linktr.ee/alexisusani" target="_blank">social media</a>!
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                You can get your ebook copy <a className="text-gold font-bold underline underline-offset-2" href="https://books2read.com/u/3kogDR" target="_blank">here</a>! I will update this post and inform everyone as soon as the links to order the paperback version is out—as I understand it,
+				it's a matter of hours. Stay tuned!
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                If you haven't grabbed a copy of the Fracture of Shackles, the first book of the trilogy, you may still <a className="text-gold font-bold underline underline-offset-2" href="https://books2read.com/u/m2KaxG" target="_blank">get the eBook</a> for $0.99 until Thursday the 24th of April,
+				so be quick!
+            </p>
+            <div className="text-right font-cursive text-dark-silver text-xl pr-12 pt-4">
+                &nbsp;<span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">C</span>harles
+                R. <span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
+            </div>
+        </div>
+        <div className="text-justify tracking-wide">
+            <div className="w-full justify-center py-8">
+                <div className="w-2/5 m-auto">
+                    <img src={separator} alt="---"/>
+                </div>
+            </div>
             <h2 className="text-center text-xl pb-1">An Amazing April Beginning</h2>
             <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 5th of April 2025</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">

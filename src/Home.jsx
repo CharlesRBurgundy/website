@@ -48,7 +48,7 @@ export default function Home() {
             </div>
         </div>
         <div className="text-center my-8">
-            <div className="mb-2">Get your copy now!</div>
+            <div className="mb-2">Get your copy of The Fracture of Shackles now!</div>
             <a
                 className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mx-2 mb-2"
                 href="https://mybook.to/NSZU"
@@ -59,6 +59,23 @@ export default function Home() {
             <a
                 className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mx-2"
                 href="https://books2read.com/u/m2KaxG"
+                target="_blank"
+            >
+                eBook
+            </a>
+        </div>
+        <div className="text-center my-8">
+            <div className="mb-2">Get your copy of A Home of Mist now!</div>
+            <a
+                className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mx-2 mb-2"
+                href="https://mybook.to/NSZU"
+                target="_blank"
+            >
+                Paperback (Coming soon)
+            </a>
+            <a
+                className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mx-2"
+                href="https://books2read.com/u/3kogDR"
                 target="_blank"
             >
                 eBook
