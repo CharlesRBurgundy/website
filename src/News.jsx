@@ -26,7 +26,7 @@ export default function News() {
             </p>
             <p className="py-1 first-letter:text-2xl first-letter:font-bold">
                 You can get your ebook copy <a className="text-gold font-bold underline underline-offset-2" href="https://books2read.com/u/3kogDR" target="_blank">here</a>! I will update this post and inform everyone as soon as the links to order the paperback version is out—as I understand it,
-				it's a matter of hours. Stay tuned!
+				it's a matter of hours. Stay tuned! (Update: <a className="text-gold font-bold underline underline-offset-2" href="https://mybook.to/ydJ3FnK" target="_blank">it's here</a>!) 
             </p>
             <p className="py-1 first-letter:text-2xl first-letter:font-bold">
                 If you haven't grabbed a copy of the Fracture of Shackles, the first book of the trilogy, you may still <a className="text-gold font-bold underline underline-offset-2" href="https://books2read.com/u/m2KaxG" target="_blank">get the eBook</a> for $0.99 until Thursday the 24th of April,
