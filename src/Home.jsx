@@ -74,6 +74,13 @@ export default function Home() {
                 Paperback
             </a>
             <a
+                className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mx-2 mb-2"
+                href="https://www.agapea.com/libros/A-Home-of-Mist-9782959137044-i.htm"
+                target="_blank"
+            >
+                Paperback (For Europe)
+            </a>
+            <a
                 className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mx-2"
                 href="https://books2read.com/u/3kogDR"
                 target="_blank"
