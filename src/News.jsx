@@ -17,6 +17,44 @@ export default function News() {
                     <img src={separator} alt="---"/>
                 </div>
             </div>
+            <h2 className="text-center text-xl pb-1">Looking back on two amazing months</h2>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 24th of April 2025</div>
+            <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
+                Quite a lot has happened since I last posted some news, so it is high time I share about what's been going on. First,
+				I would like to say thank you to everyone who has gotten a copy of my books! It means the world to me and I hope you
+				enjoy. I also wanted to say thank you to those who have taken the time to leave a review, talked about me to friends
+				and family, or sent me a DM—including those who shared some constructive criticism—thank you all very much again!
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                It is also important that I reassure you all: I have absolutely not wasted those last two months, and I've made some
+				excellent progress towards finishing  <span className="text-gold font-bold">The Lion of Obsidian</span>. Usually June is my worst month of writing (I'll blame the
+				summer heat), but this year has been the total opposite. Just last week, I wrote some 14,000 words, which is to say
+				some 60 pages.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                Now, where does that leave us with  <span className="text-gold font-bold">The Lion of Obsidian</span>? How much has been written, and what is left to do? Well, I
+				am aiming for this third book to be about as long as the other two, so between 90,000 to 120,000 words. So far, I have
+				written just shy of 50,000 words, so I'm about half-way done with the first draft. I will of course need to rewrrite
+				some parts to get them exactly right (which I've already started doing, as I had a lot of really cool ideas while I was
+				editing A Home of Mist earlier this year). It will still be a bit of time before you get a copy in your hands, but I have
+				been having a blast writing it all so far, and I think you will have a blast reading it, too!
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                That is all for now! Keep in touch on my social media, and see you next time.
+            </p>
+            <div className="text-right font-cursive text-dark-silver text-xl pr-12 pt-4">
+                &nbsp;<span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">C</span>harles
+                R. <span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
+            </div>
+        </div>
+        <div className="text-justify tracking-wide">
+            <div className="w-full justify-center py-8">
+                <div className="w-2/5 m-auto">
+                    <img src={separator} alt="---"/>
+                </div>
+            </div>
             <h2 className="text-center text-xl pb-1">Today is the Day—A Home of Mist is out!</h2>
             <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 19th of April 2025</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
