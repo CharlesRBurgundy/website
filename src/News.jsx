@@ -17,6 +17,45 @@ export default function News() {
                     <img src={separator} alt="---"/>
                 </div>
             </div>
+            <h2 className="text-center text-xl pb-1">In Remembrance of an Old Companion</h2>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 24th of April 2025</div>
+            <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
+                Hello everyone! This has been a rather eventful summer, and I think it's time that I share some news, and also update
+				everyone on the progress I've made. There has been one rather unfortunate event which—allow me to immediately reassure
+				you—is thankfully nothing of massive consequence.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                In fact, I might as well start with this little story: the PC I have had for about eleven years valiantly fought to
+				the bitter end, by my side through thick and thin, but sadly, it has met its end in the last week of July. This meant
+				that I could not get any work done for a couple of weeks before I got a new one. Thankfully, none of the disks were
+				affected, and thus I lost no data (and besides, I am extremely rigorous with making frequent backups of my work, so
+				there was no real risk to begin with).
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                Still, that interruption was quite abrupt, and so as I was already paused in my work, I thought I'd give myself a
+				few weeks of rest before I get back to work. So, here we are now: I spent last week dealing with a fair bit of
+				paperwork, and now I am back to being fully focused on <span className="text-gold font-bold">The Lion of Obsidian</span>! I will first finish what I started in
+				July, which is to say, improving what I had already written in Autumn 2024, before completing the first draft as
+				a whole.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                On the fun side of things, I have had to do quite a lot of research for <span className="text-gold font-bold">The Lion of Obsidian</span>, and so I thought it
+				would be cool to share some of the interesting historical and cultural facts I have learnt while it is all still
+				fresh in my mind. I will make the first post about it soon, so tell me what you think!
+            </p>
+            <div className="text-right font-cursive text-dark-silver text-xl pr-12 pt-4">
+                &nbsp;<span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">C</span>harles
+                R. <span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
+            </div>
+        </div>
+        <div className="text-justify tracking-wide">
+            <div className="w-full justify-center py-8">
+                <div className="w-2/5 m-auto">
+                    <img src={separator} alt="---"/>
+                </div>
+            </div>
             <h2 className="text-center text-xl pb-1">Looking back on two amazing months</h2>
             <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 24th of April 2025</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
