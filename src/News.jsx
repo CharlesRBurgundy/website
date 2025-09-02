@@ -18,7 +18,7 @@ export default function News() {
                 </div>
             </div>
             <h2 className="text-center text-xl pb-1">In Remembrance of an Old Companion</h2>
-            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 24th of April 2025</div>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 2nd of September 2025</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
                 Hello everyone! This has been a rather eventful summer, and I think it's time that I share some news, and also update
 				everyone on the progress I've made. There has been one rather unfortunate event which—allow me to immediately reassure
@@ -57,7 +57,7 @@ export default function News() {
                 </div>
             </div>
             <h2 className="text-center text-xl pb-1">Looking back on two amazing months</h2>
-            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 24th of April 2025</div>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 24th of June 2025</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
                 Quite a lot has happened since I last posted some news, so it is high time I share about what's been going on. First,
 				I would like to say thank you to everyone who has gotten a copy of my books! It means the world to me and I hope you
