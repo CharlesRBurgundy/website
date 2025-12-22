@@ -17,6 +17,42 @@ export default function News() {
                     <img src={separator} alt="---"/>
                 </div>
             </div>
+            <h2 className="text-center text-xl pb-1">Some Christmas Cheers!</h2>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 22nd of December 2025</div>
+            <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
+                I have lost count of how many pages I have written in the past months. I may have gotten so absorbed
+				in my writing that I forgot to even share any news here, but let me assure you, it is all good news.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                The very first thing I want to proudly announce is that I have finished the first draft of <span className="text-gold font-bold">The Lion of Obsidian</span>.
+				It is still a little flawed, thus I will need to write at least another draft or two, but I am very
+				happy with hte direction of the story so far. I think it will absolutely be my best book. It is a
+				little longer, though only barely, than <span className="text-gold font-bold">A Home of Mist</span>,
+				and the final version will likely be near the 120.000 words mark, or about 450 pages.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                There is another really positive thing I wish to share, though I shall spare you the backstage details:
+				the paperback versions of both The Fracture of Shackles and A Home of Mist will permantently be $2 USD
+				cheaper (and I will make more per sale even with those lower prices), so there is no better time to
+				get your own copy!
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                I will take a couple of weeks to rest, as the past few days were the most productive I've ever been,
+				and I feel a touch exhausted. I will return soon with more information on what comes next.
+            </p>
+            <div className="text-right font-cursive text-dark-silver text-xl pr-12 pt-4">
+                &nbsp;<span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">C</span>harles
+                R. <span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
+            </div>
+        </div>
+        <div className="text-justify tracking-wide">
+            <div className="w-full justify-center py-8">
+                <div className="w-2/5 m-auto">
+                    <img src={separator} alt="---"/>
+                </div>
+            </div>
             <h2 className="text-center text-xl pb-1">In Remembrance of an Old Companion</h2>
             <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 2nd of September 2025</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">

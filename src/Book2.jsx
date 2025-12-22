@@ -52,14 +52,14 @@ export default function Book2() {
                 <div className="mb-2">Get your copy now!</div>
                 <a
                     className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mx-2 mb-2"
-                    href="https://mybook.to/ydJ3FnK"
+                    href="https://mybook.to/Ml6D"
                     target="_blank"
                 >
                     Paperback
                 </a>
                 <a
                     className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mx-2"
-                    href="https://books2read.com/u/3kogDR"
+                    href="https://books2read.com/u/brlMRW"
                     target="_blank"
                 >
                     eBook

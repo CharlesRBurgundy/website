@@ -31,37 +31,46 @@ export default function Book1() {
             </div>
         </div>
         <p className="px-4 pb-4 md:px-24 font-cursive italic text-xl first-letter:text-4xl">
-            When forced in a war that isn't his, how can an enslaved nobleman combine honour and survival ?
+            Whose voice whispers freedom in the dark?
         </p>
         <div className="text-justify tracking-wide">
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
-                Captured by pirates at sea, Valirian, a young nobleman from the kingdom of Vinmara, is sold into
-                slavery to the empire of Koresh, his people’s sworn enemy. He comes into the service of Alexar, a
-                powerful and influential Koreshian general, whose designs for the young man are as obscure as they
-                are an ill omen.
+                Captured beneath the banner of a crimson sun, Valirian’s life as a noble ends the moment his freedom
+                is sold. Once heir to a peaceful land, he awakens in the shadow of the Koreshian Empire, where slaves
+                are broken and the will to dream is a dangerous thing.
             </p>
             <p className="py-1 first-letter:text-2xl first-letter:font-bold">
-                But war is near, for the Emperor of Koresh, a centuries-old and powerful sorcerer named Tarasmir,
-                plans to unleash his legions to conquer new land. Forced to adapt to a hostile environment, Valirian
-                comes to learn the price he must pay to stay alive. As war takes him far away from home, he will be
-                forced to make a choice—one that may cost him his life.
+                Forced into the brutal depths of the Kennels and later into the service of a feared general, Valirian
+                must navigate a realm where power is worshipped and mercy is scarce.
             </p>
             <p className="py-1 first-letter:text-2xl first-letter:font-bold">
-                Fate is a cruel mistress in love with irony. Will Valirian find redemption, or are some doomed to
-                repeat the same mistakes until the very end?
+                Each day tests his resolve as his new condition makes him all too accustomed to cruelty, betrayal, and
+                the slow erosion of everything he once believed. Yet beneath the weight of chains, a flicker of defiance
+				survives, and through pain he begins to see the world not as he was taught, but as it truly is.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                In a landscape steeped in ambition and dark magic, Valirian’s struggle becomes more than survival—it becomes
+                a reckoning. The choices he makes will decide not only his fate but the destiny of all who still dare to hope.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                The Fracture of Shackles is a sweeping tale of dark fantasy and magical realism, where loyalty and rebellion
+                blur and the fight for freedom becomes the fight for one’s soul.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                The empire awaits. Will you stand or kneel?
             </p>
             <div className="text-center my-8">
                 <div className="mb-2">Get your copy now!</div>
                 <a
                     className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mx-2 mb-2"
-                    href="https://mybook.to/NSZU"
+                    href="https://mybook.to/kk3Pqs"
                     target="_blank"
                 >
                     Paperback
                 </a>
                 <a
                     className="inline-block bg-gold px-4 py-2 rounded-lg font-bold text-lg mx-2"
-                    href="https://books2read.com/u/m2KaxG"
+                    href="https://books2read.com/u/mBknYO"
                     target="_blank"
                 >
                     eBook
@@ -79,8 +88,8 @@ export default function Book1() {
                     <b>Book Title:</b> The Fracture of Shackles<br/>
                     <b>Genre:</b> Fantasy<br/>
                     <b>Age Category:</b> Adult<br/>
-                    <b>ISBN Paperback:</b> 978-2-9591370-0-6<br/>
-                    <b>ISBN eBook:</b> 978-2-9591370-1-3<br/>
+                    <b>ISBN Paperback:</b> 978-2-9591370-2-0<br/>
+                    <b>ISBN eBook:</b> 978-2-9591370-3-7<br/>
                 </p>
             </div>
         </div>
