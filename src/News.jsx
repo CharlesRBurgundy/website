@@ -20,10 +20,6 @@ export default function News() {
             <h2 className="text-center text-xl pb-1">An update with thankfulness</h2>
             <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 4th of June 2026</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
-                I have lost count of how many pages I have written in the past months. I may have gotten so absorbed
-				in my writing that I forgot to even share any news here, but let me assure you, it is all good news.
-            </p>
-            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
                 It's honestly been too long since I last shared some news. Truth be told, there is quite a lot I've
 				been handling behind the scenes (and also in things unrelated to my art), but I have made some good
 				progress on the second draft of <span className="text-gold font-bold">The Lion of Obsidian</span> in spite of all that—I am just shy of half-way
@@ -39,7 +35,7 @@ export default function News() {
                 But more importantly, I would like to take a moment to say thank you for the recent wave of support
 				I have received, notably on my Amazon page where I have gotten several reviews, many of which actually
 				had some really interesting feedback. It's funny to see how much I think I have improved, both in my
-				writing style and in the tiny details of plot-writing, over the years and since I first published
+				writing style and in the tiny details of plot-writing, over the years and since I first published 
 				<span className="text-gold font-bold">The Fracture of Shackles</span>. I think I will be able to bring this trilogy to an amazing conclusion,
 				and in my opinion, I've outdone myself with <span className="text-gold font-bold">The Lion of Obsidian</span>, in every regard. I intend to turn
 				what is a very solid first draft into an incredible final result.
