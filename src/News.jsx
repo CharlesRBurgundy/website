@@ -17,6 +17,46 @@ export default function News() {
                     <img src={separator} alt="---"/>
                 </div>
             </div>
+            <h2 className="text-center text-xl pb-1">An update with thankfulness</h2>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 4th of June 2026</div>
+            <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
+                I have lost count of how many pages I have written in the past months. I may have gotten so absorbed
+				in my writing that I forgot to even share any news here, but let me assure you, it is all good news.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                It's honestly been too long since I last shared some news. Truth be told, there is quite a lot I've
+				been handling behind the scenes (and also in things unrelated to my art), but I have made some good
+				progress on the second draft of <span className="text-gold font-bold">The Lion of Obsidian</span> in spite of all that—I am just shy of half-way
+				done.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                To conclude on the progress report, a little while ago I had hoped to be able to publish it this summer
+				of 2026, but that's clearly not going to be possible. The second half still needs a bit of work before
+				I take the book to editing, but I still intend to have the release date be this year. I'll keep you
+				all updated as things become clearer.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                But more importantly, I would like to take a moment to say thank you for the recent wave of support
+				I have received, notably on my Amazon page where I have gotten several reviews, many of which actually
+				had some really interesting feedback. It's funny to see how much I think I have improved, both in my
+				writing style and in the tiny details of plot-writing, over the years and since I first published
+				<span className="text-gold font-bold">The Fracture of Shackles</span>. I think I will be able to bring this trilogy to an amazing conclusion,
+				and in my opinion, I've outdone myself with <span className="text-gold font-bold">The Lion of Obsidian</span>, in every regard. I intend to turn
+				what is a very solid first draft into an incredible final result.
+            </p>
+            <div className="text-right font-cursive text-dark-silver text-xl pr-12 pt-4">
+                &nbsp;<span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">C</span>harles
+                R. <span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
+            </div>
+        </div>
+        <div className="text-justify tracking-wide">
+            <div className="w-full justify-center py-8">
+                <div className="w-2/5 m-auto">
+                    <img src={separator} alt="---"/>
+                </div>
+            </div>
             <h2 className="text-center text-xl pb-1">Some Christmas Cheers!</h2>
             <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 22nd of December 2025</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
