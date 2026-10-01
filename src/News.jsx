@@ -17,6 +17,45 @@ export default function News() {
                     <img src={separator} alt="---"/>
                 </div>
             </div>
+            <h2 className="text-center text-xl pb-1">It is nearly the End</h2>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 4th of June 2026</div>
+            <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
+                If you read this title, you might think it refers to <span className="text-gold font-bold">The Lion of Obsidian</span>. You would not be wrong, but I
+				was also thinking of this exhausting summer, too. Some of you might have noticed some of the heatwaves
+				that were nice enough to visit Europe and often left my room, where I feel most comfortable writing, at
+				over 32°C (which is 90°F).
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                Now, difficult and exhausting does not mean unproductive. I actually made a lot of progress in June,
+				July, and early August, and I had hoped to finish the second draft of <span className="text-gold font-bold">The Lion of Obsidian</span> before the
+				end of August as I would be leaving and would not be able to write for a few weeks, but as usual with
+				life, a few unexpected things happened and I could not quite make it.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                But this is not to say there are no good news. As I said, I did make a lot of progress before leaving,
+				and so I'm nearly done (I'd say 90%). Though my break did knock the winds out of my sails just a little,
+				I do think I will be able to have finished the second draft before the end of October. After that, only
+				editing will remain before you can get your hands on this third book, which of course is not up just to
+				me and my schedule alone, but I will make sure to keep you all informed on a rough timeline as things
+				get clearer.
+            </p>
+            <p className="py-1 first-letter:text-2xl first-letter:font-bold">
+                I know I've hyped up this third book a lot in the past two news I posted here, but I really do not think
+				it is just bravado. I can't wait for you all to read what I've been working on all this time!
+            </p>
+            <div className="text-right font-cursive text-dark-silver text-xl pr-12 pt-4">
+                &nbsp;<span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">C</span>harles
+                R. <span
+                className="text-3xl lg:text-3xl 2xl:text-4xl translate-y-1 px-0.5 inline-block">B</span>urgundy&nbsp;
+            </div>
+        </div>
+        <div className="text-justify tracking-wide">
+            <div className="w-full justify-center py-8">
+                <div className="w-2/5 m-auto">
+                    <img src={separator} alt="---"/>
+                </div>
+            </div>
             <h2 className="text-center text-xl pb-1">An update with thankfulness</h2>
             <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 4th of June 2026</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
