@@ -18,7 +18,7 @@ export default function News() {
                 </div>
             </div>
             <h2 className="text-center text-xl pb-1">It is nearly the End</h2>
-            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 4th of June 2026</div>
+            <div className="text-center text-dark-silver font-cursive text-xl pb-4">The 1st of October 2026</div>
             <p className="py-2 first-letter:text-6xl first-letter:text-gold first-letter:font-bold first-letter:float-left first-letter:pr-1 first-letter:-mt-3">
                 If you read this title, you might think it refers to <span className="text-gold font-bold">The Lion of Obsidian</span>. You would not be wrong, but I
 				was also thinking of this exhausting summer, too. Some of you might have noticed some of the heatwaves
